@@ -1,0 +1,152 @@
+body{
+    background-color: #232323;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    h1{
+        padding-right: 2rem;
+    }
+    #switchTheme{
+        background-color: #3a3a3a;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        padding: 0.8rem;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    #switchTheme:hover{
+        background-color: #303030;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    #addTaskArea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 15rem;
+        height: 2rem;
+        margin-right: 1.5rem;
+        padding-left: 0.5rem;
+        border-style: solid;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #dedede;
+        border-color: #dedede;
+        color: #232323;
+    }
+    #addTaskButton{
+        width: 2.3rem;
+        height: 2.3rem;
+        border-style: solid;
+        border-radius: 25px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #3a3a3a;
+        border-color: #3a3a3a;
+        color: #ffffff;
+    }
+    #addTaskButton:hover{
+        transition: 0.3s ease;
+        cursor: pointer;
+        background-color: #303030;
+        border-color: #303030;
+    }
+    #listaDeTarefas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3rem;
+        list-style: none;
+        padding: 0;
+    }
+    li{
+        padding: 1rem;
+    }
+    .taskButton{
+        width: 2.3rem;
+        height: 2.3rem;
+        border-style: solid;
+        border-radius: 25px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #37752d;
+        border-color: #37752d;
+        color: #ffffff;
+        margin-left: 1rem;
+    }
+    .taskButton:hover{
+        transition: 0.3s ease;
+        cursor: pointer;
+        background-color: #2c6024;
+        border-color: #2c6024;
+    }
+    .editButton{
+        width: 2.3rem;
+        height: 2.3rem;
+        border-style: solid;
+        border-radius: 25px;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #3a3a3a;
+        border-color: #3a3a3a;
+        color: #ffffff;
+        margin-left: 2rem;
+    }
+    .editButton:hover{
+        transition: 0.3s ease;
+        cursor: pointer;
+        background-color: #303030;
+        border-color: #303030;
+    }
+}
+
+body.light{
+    background-color: #dedede;
+    color: #232323;
+    #switchTheme{
+        background-color: #3a3a3a;
+        color: #ededed;
+    }
+    #switchTheme:hover{
+        background-color: #232323;
+    }
+    input{
+        background-color: #dedede;
+        border-style: solid;
+        border-color: #4a4a4a;
+        color: #232323;
+    }
+    input::placeholder{
+        color: #232323;
+    }
+    #addTaskButton{
+        background-color: #3a3a3a;
+        border-color: #3a3a3a;
+    }
+    #addTaskButton:hover{
+        background-color: #232323;
+        border-color: #232323;
+    }
+    .taskButton{
+        background-color: #73a380;
+        border-color: #73a380;
+    }
+    .taskButton:hover{
+        background-color: #659071;
+        border-color: #659071;
+    }
+    .editButton{
+        background-color: #3a3a3a;
+        border-color: #3a3a3a;
+    }
+    .editButton:hover{
+        background-color: #232323;
+        border-color: #232323;
+    }
+}
